@@ -1,7 +1,5 @@
 #!/usr/bin/php
-
 <?php
-
 function ft_split($str)
 {
 	$arr_tmp = explode(" ", $str);
@@ -16,5 +14,4 @@ function ft_split($str)
 	}
 	return $arr_ret;
 }
-
 ?>
